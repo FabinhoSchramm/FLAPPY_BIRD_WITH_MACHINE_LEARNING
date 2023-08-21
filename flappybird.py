@@ -32,8 +32,8 @@ class Passaro:
     IMGS = IMAGENS_PASSARO
     # animações da rotação
     ROTACAO_MAXIMA = 25
-    VELOCIDADE_ROTACAO = 20
-    TEMPO_ANIMACAO = 5
+    VELOCIDADE_ROTACAO = 2
+    TEMPO_ANIMACAO = 1
 
     def __init__(self, x, y):
         self.x = x
@@ -105,7 +105,7 @@ class Passaro:
 
 class Cano:
     DISTANCIA = 200
-    VELOCIDADE = 10
+    VELOCIDADE = 20
 
     def __init__(self, x):
         self.x = x
@@ -147,7 +147,7 @@ class Cano:
 
 
 class Chao:
-    VELOCIDADE = 10
+    VELOCIDADE = 20
     LARGURA = IMAGEM_CHAO.get_width()
     IMAGEM = IMAGEM_CHAO
 
